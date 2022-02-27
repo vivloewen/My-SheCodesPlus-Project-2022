@@ -1,0 +1,111 @@
+body {
+  font-family: "Manrope", sans-serif;
+}
+footer {
+  margin: 10px 10px;
+}
+
+.weatherbox {
+  background-color: thistle;
+  padding: 20px auto;
+  margin: 10px 10px;
+  border: 2px solid black;
+  max-width: 600px;
+}
+
+.search {
+  margin: 30px 20px 30px 60px;
+  display: block;
+}
+.intro {
+  padding: 0 60px;
+  font-size: 18px;
+  color: whitesmoke;
+}
+
+.location {
+  font-size: 30px;
+  line-height: 10px;
+  padding: 20px;
+}
+.country {
+  font-style: italic;
+  font-size: 35px;
+}
+.curweather {
+  padding: 5px 0px 5px 20px;
+  text-align: center;
+}
+
+.curtemp {
+  font-size: 70px;
+  padding: 5px;
+  text-align: center;
+}
+.units {
+  position: relative;
+  top: -33px;
+}
+#celsius {
+  text-decoration: none;
+  color: white;
+}
+#fahrenheit {
+  text-decoration: none;
+  color: white;
+}
+.attributes {
+  list-style: none;
+  font-size: 14px;
+  margin: 20px auto;
+}
+
+.forecast {
+  padding: 0 60px;
+}
+
+.weathercard {
+  text-align: center;
+  font-size: 12px;
+}
+.icon {
+  font-size: 13px;
+}
+.card-text {
+  color: grey;
+}
+.weathericon {
+  color: black;
+  font-size: 40px;
+}
+.bigweather {
+  color: black;
+  font-size: 80px;
+}
+.buttonlist {
+  padding: 10px 60px;
+  text-align: center;
+}
+#dark {
+  padding: 5px 30px;
+  background: black;
+}
+
+#pink {
+  padding: 5px 30px;
+  background: palevioletred;
+  color: black;
+  border-color: palevioletred;
+}
+#yellow {
+  padding: 5px 30px;
+  background: yellow;
+  color: black;
+  border-color: yellow;
+}
+#blue {
+  padding: 5px 30px;
+  background: lightskyblue;
+  color: black;
+  border-color: lightskyblue;
+}
